@@ -1,0 +1,15 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    overflow: auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111927;
+    background-image:
+        radial-gradient(at 47% 33%, hwb(258 9% 29%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+}

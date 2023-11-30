@@ -1,0 +1,70 @@
+#root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.input-field,
+.button {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.input-field {
+    flex: 1;
+}
+
+.button {
+    background-color: #794cf8;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+}
+
+.card {
+    backdrop-filter: blur(3px) saturate(168%);
+    -webkit-backdrop-filter: blur(3px) saturate(168%);
+    background-color: rgba(17, 25, 40, 0.76);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 5em 10em;
+    color: #794cf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    overflow-y: auto;
+}
+
+.todo-card {
+    backdrop-filter: blur(3px) saturate(168%);
+    -webkit-backdrop-filter: blur(3px) saturate(168%);
+    background-color: rgba(17, 25, 40, 0.76);
+    border-radius: 12px;
+    border: 1px solid rgba(227, 227, 227, 0.125);
+    padding: 1em 5em;
+    width: 100%;
+    margin: 1em;
+    color: #794cf8;
+}
+
+.read-the-docs {
+    color: #888;
+}
